@@ -9,10 +9,13 @@ const DragDropFiles = () => {
     setImages([...e.target.files]);
   }
   return(
-  <>
-    <input type="file" multiple accept="image/*" onChange={onImageChange}/>
- 
-    </>
+    <div class="grid place-items-center p-10">
+
+      <>
+        <input type="file" multiple accept="image/*" onChange={onImageChange}/>
+    
+      </>
+    </div>
   )
 }
 

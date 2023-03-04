@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <nav className=" bg-slate-800">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
+            <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
                 <div >
                     <div className="flex items-center justify-between py-3 md:py-5 md:block ">
                         <a href="javascript:void(0)">
@@ -58,10 +58,10 @@ export default function Navbar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-blue-600 hover:text-gray-600">
                                 <a href="javascript:void(0)">BENEFITS</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className=" text-blue-600 hover:text-gray-600">
                                 <a href="javascript:void(0)">How it Works</a>
                             </li>
                             <button onClick={() => {navigate("/register");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
