@@ -58,16 +58,16 @@ export default function Navbar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-blue-600 hover:text-gray-600">
-                                <a href="javascript:void(0)">BENEFITS</a>
+                            <li className="text-cyan-500 hover:text-gray-600">
+                                <a href="#tog">BENEFITS</a>
                             </li>
-                            <li className=" text-blue-600 hover:text-gray-600">
-                                <a href="javascript:void(0)">How it Works</a>
+                            <li className=" text-cyan-500 hover:text-gray-600">
+                                <a href="#togg">HOW IT WORKS</a>
                             </li>
-                            <button onClick={() => {navigate("/register");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            <button onClick={() => {navigate("/register");}} class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded">
   REGISTER
 </button>
-                            <button onClick={() => {navigate("/login");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            <button onClick={() => {navigate("/login");}} class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded">
   LOGIN
 </button>
                            

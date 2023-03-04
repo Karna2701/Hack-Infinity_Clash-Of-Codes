@@ -1,8 +1,12 @@
-import React from 'react'
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-const header = () => {
+export default function Header() {
+  let navigate = useNavigate();
+  // const [header, setHeader] = useState(false);
+
   return (
-    <div className='flex justify-between bg-zinc-800'>
+    <div className='flex justify-between bg-ourblack'>
       <div className='flex-col text-justify'>
 
         <div className='flex justify-between'>
@@ -20,7 +24,7 @@ const header = () => {
         </div>
 
         <div>
-          <button class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded my-11 mx-10'>
+          <button onClick={() => {navigate("/register");}} class='bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded my-11 mx-10'>
             Start Free
           </button>
         </div>
@@ -35,4 +39,4 @@ const header = () => {
   )
 }
 
-export default header
+
