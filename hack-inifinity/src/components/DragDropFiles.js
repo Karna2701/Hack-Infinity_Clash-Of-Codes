@@ -16,7 +16,7 @@ const DragDropFiles = () => {
       </>
 
       <div>
-          <button type="submit" class='bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded my-8 mx-4'>
+        <button onClick={() => window.open("/test.html", "_blank")}type="submit" class='bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded my-8 mx-4'>
             DETECT
           </button>
       </div>

@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div >
                     <div className="flex items-center justify-between py-3 md:py-5 mx--20 md:block ">
                         <a href="javascript:void(0)">
-                            <h2 className="text-4xl font-bold ">AIMODEL</h2>
+                            <h2 className="text-4xl font-bold text-white ">AIMODEL</h2>
                         </a>
                         <div className="md:hidden">
                             <button
