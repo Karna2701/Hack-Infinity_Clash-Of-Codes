@@ -2,7 +2,7 @@ import React from 'react'
 
 const header = () => {
   return (
-    <div className='flex justify-between bg-black'>
+    <div className='flex justify-between bg-zinc-800'>
       <div className='flex-col text-justify'>
 
         <div className='flex justify-between'>

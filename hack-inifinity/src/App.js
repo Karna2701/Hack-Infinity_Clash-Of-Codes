@@ -4,7 +4,8 @@ import Navbar from "./components/navbar";
 import Header from './components/header';
 import DragDropFiles from './components/DragDropFiles';
 import Url from './components/url';
-
+import Benefits from './components/benefits';
+import Works from './components/works';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Header />
       <Url/>
       <DragDropFiles/>
-
+      <Benefits />
+      <Works/>
     </div>
   );
 }
