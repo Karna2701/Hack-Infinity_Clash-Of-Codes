@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function NavBar() {
+export default function Navbar() {
+    let navigate = useNavigate();
     const [navbar, setNavbar] = useState(false);
 
     return (
@@ -62,10 +64,10 @@ export default function NavBar() {
                             <li className="text-gray-600 hover:text-blue-600">
                                 <a href="javascript:void(0)">How it Works</a>
                             </li>
-                            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-  SIGN UP
+                            <button onClick={() => {navigate("/register");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+  REGISTER
 </button>
-                            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            <button onClick={() => {navigate("/login");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
   LOGIN
 </button>
                            

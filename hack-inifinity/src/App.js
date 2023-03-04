@@ -1,21 +1,24 @@
 
 import './App.css';
-import Navbar from "./components/navbar";
-import Header from './components/header';
-import DragDropFiles from './components/DragDropFiles';
-import Url from './components/url';
+import LandingPage from './components/LandingPage';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Register from "./components/Register";
+import Login from './components/Login';
+
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Url/>
-      <DragDropFiles/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/login" element={<Login />}></Route>
 
-    </div>
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 
