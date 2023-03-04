@@ -7,11 +7,11 @@ export default function Navbar() {
 
     return (
         <nav className=" bg-slate-800">
-            <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
+            <div className="justify-between mx-auto lg:max-w-10xl md:items-center md:flex md:px-8 ">
                 <div >
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block ">
+                    <div className="flex items-center justify-between py-3 md:py-5 mx--20 md:block ">
                         <a href="javascript:void(0)">
-                            <h2 className="text-4xl font-bold">XYZ</h2>
+                            <h2 className="text-4xl font-bold ">AIMODEL</h2>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -57,16 +57,16 @@ export default function Navbar() {
                             }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-blue-600 hover:text-gray-600">
-                                <a href="javascript:void(0)">BENEFITS</a>
+                            <li className="text-cyan-500 hover:text-gray-600">
+                                <a href="#tog">BENEFITS</a>
                             </li>
-                            <li className=" text-blue-600 hover:text-gray-600">
-                                <a href="javascript:void(0)">How it Works</a>
+                            <li className=" text-cyan-500 hover:text-gray-600">
+                                <a href="#togg">HOW IT WORKS</a>
                             </li>
-                            <button onClick={() => { navigate("/register"); }} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            <button onClick={() => { navigate("/register"); }} class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded">
                                 REGISTER
                             </button>
-                            <button onClick={() => { navigate("/login"); }} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            <button onClick={() => { navigate("/login"); }} class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border border-cyan-700 rounded">
                                 LOGIN
                             </button>
 

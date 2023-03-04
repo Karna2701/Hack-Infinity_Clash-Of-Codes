@@ -3,6 +3,9 @@ import Navbar from './Navbar'
 import Header from './header'
 import  Url from './url'
 import DragDropFiles from './DragDropFiles'
+import Benefits from './benefits'
+import Works from './works'
+import Footer from './Footer'
 
 
 const LandingPage = () => {
@@ -12,6 +15,9 @@ const LandingPage = () => {
       <Header />
       <Url/>
       <DragDropFiles/>
+      <Benefits />
+      <Works/>
+      <Footer/>
 
     </div>
   )
