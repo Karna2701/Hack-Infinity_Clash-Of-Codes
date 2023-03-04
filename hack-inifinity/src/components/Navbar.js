@@ -5,9 +5,9 @@ export default function NavBar() {
 
     return (
         <nav className=" bg-slate-800">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-                <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
+                <div >
+                    <div className="flex items-center justify-between py-3 md:py-5 md:block ">
                         <a href="javascript:void(0)">
                             <h2 className="text-4xl font-bold">XYZ</h2>
                         </a>
