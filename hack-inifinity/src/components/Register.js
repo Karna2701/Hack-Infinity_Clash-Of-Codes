@@ -21,7 +21,8 @@ const Register = (props) => {
               <input className='border-2 bg-our-black text-white py-2 h-max px-8 m-2 w-10/12 rounded-xl font-bold text-left hover:text-our-black hover:bg-our-white hover:border-slate-600' type="email" value={details.email} name="email" onChange={handleChange} placeholder='E-mail'/>
               <input className='border-2 bg-our-black text-white py-2 h-max px-8 m-2 w-10/12 rounded-xl font-bold text-left hover:text-our-black hover:bg-our-white hover:border-slate-600' type="password" value={details.password} name="password" onChange={handleChange} placeholder='Password'/>
               <input className='border-2 bg-our-black text-white py-2 h-max px-8 m-2 w-10/12 rounded-xl font-bold text-left hover:text-our-black hover:bg-our-white hover:border-slate-600' type="password" value={details.retypedpassword} name="retypedpassword" onChange={handleChange} placeholder='Re-Enter Password'/>
-              <button onClick={() => {navigate("/");}} className='border-2 text-our-white py-2 h-max px-8 rounded-xl m-3 font-semibold text-center hover:text-our-black hover:bg-our-purple hover:cursor-pointer'>Register</button>
+              <button onClick={() => { navigate("/"); }} className='border-2 text-our-white py-2 h-max px-8 rounded-xl m-3 font-semibold text-center hover:text-our-black hover:bg-our-purple hover:cursor-pointer'>Register</button>
+              
             </form>
             <div className='flex w-max my-4'>
               <p className='text-center text-our-white text-base font-ourfont h-max'>Have an Account?</p>
