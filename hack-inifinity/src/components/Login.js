@@ -21,7 +21,7 @@ const Login = (props) => {
         <form className='flex flex-col items-center align-middle w-full'>
           <input className='border-2 bg-our-black text-white py-2 h-max px-8 m-2 w-10/12 rounded-xl font-bold text-left hover:text-our-black hover:bg-white hover:border-slate-600' type="email" value = {details.email} name="email" placeholder='E-mail' onChange={handleChange}/>
           <input className='border-2 bg-our-black text-white py-2 h-max px-8 m-2 w-10/12 rounded-xl font-bold text-left hover:text-our-black hover:bg-white hover:border-slate-600' type="password" value = {details.password} name="password" placeholder='Password' onChange={handleChange}/>
-          <button className='border-2 text-black py-2 h-max px-8 rounded-xl m-3 font-semibold text-center hover:text-our-black hover:bg-our-purple hover:cursor-pointer'>Sign In</button>
+          <button onClick={() => {navigate("/");}} className='border-2 text-black py-2 h-max px-8 rounded-xl m-3 font-semibold text-center hover:text-our-black hover:bg-our-purple hover:cursor-pointer'>Sign In</button>
         </form>
         <div className='flex w-max my-4'>
           <p className='text-center text-black text-base font-ourfont h-max'>Don't have an Account?</p>
