@@ -53,9 +53,8 @@ export default function Navbar() {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                            navbar ? "block" : "hidden"
-                        }`}
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+                            }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-blue-600 hover:text-gray-600">
@@ -64,17 +63,17 @@ export default function Navbar() {
                             <li className=" text-blue-600 hover:text-gray-600">
                                 <a href="javascript:void(0)">How it Works</a>
                             </li>
-                            <button onClick={() => {navigate("/register");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-  REGISTER
-</button>
-                            <button onClick={() => {navigate("/login");}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-  LOGIN
-</button>
-                           
+                            <button onClick={() => { navigate("/register"); }} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                                REGISTER
+                            </button>
+                            <button onClick={() => { navigate("/login"); }} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                                LOGIN
+                            </button>
+
                         </ul>
                     </div>
                 </div>
             </div>
-        </nav>
-    );
+        </nav>
+    );
 }
