@@ -5,6 +5,7 @@ const Navbar = () => {
     let Links = [
         { name: "BENEFITS", link: "/" },
         { name: "How it Works", link: "/" },
+
        
     ];
     let [open, setOpen] = useState(false);
@@ -33,6 +34,12 @@ const Navbar = () => {
                     }
 
                 </ul>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+  SIGN UP
+</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+  LOGIN
+</button>
             </div>
         </div>
     )
